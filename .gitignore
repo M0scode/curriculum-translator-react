@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Uploads
+backend/uploads/
+
+# Hugging Face cache
+.cache/
+models/
+
+# React
+frontend/node_modules/
+frontend/dist/
+
+# Environment variables
+.env
+
+# OS
+.DS_Store
+Thumbs.db

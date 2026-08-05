@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Inter, Arial, sans-serif;
+    background: #f5f7fb;
+    color: #1f2937;
+}
+
+#root {
+    min-height: 100vh;
+}
+
+.app-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.tab-container {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 15px;
+
+    margin-bottom: 30px;
+
+}
+
+.tab {
+
+    padding: 14px 24px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: white;
+
+    color: #374151;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,.08);
+
+    transition: .3s;
+
+}
+
+.tab:hover {
+
+    transform: translateY(-2px);
+
+}
+
+.tab.active {
+
+    background: #2563EB;
+
+    color: white;
+
+}
